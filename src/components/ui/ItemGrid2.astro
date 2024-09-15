@@ -32,14 +32,14 @@ const {
         containerClass
       )}
     >
-      {items.map(({ title, description, icon, callToAction, classes: itemClasses = {} }) => (
+      {items.map(({ title, description, icon, custom, callToAction, classes: itemClasses = {} }) => (
         <div class={twMerge('relative flex flex-col', panelClass, itemClasses?.panel)}>
           {(icon || defaultIcon) && (
             <Icon name={icon || defaultIcon} class={twMerge('mb-2 w-10 h-10', defaultIconClass, itemClasses?.icon)} />
           )}
           <div class={twMerge('text-xl font-bold', titleClass, itemClasses?.title)}>{title}</div>
           {description && (
-            <p class={twMerge('text-muted mt-2', descriptionClass, itemClasses?.description)} set:html={description} />
+            <p class={twMerge('text-muted mt-2', descriptionClass, itemClasses?.description, custom)} set:html={description} />
           )}
           {callToAction && (
             <div class="mt-2">
