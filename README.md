@@ -1,13 +1,7 @@
 
 ![Logo](/src/assets/images/logo.png?raw=true)
 
-
-# TheOpenSource.community
-
 A brief description of what this project does and who it's for
-
-
-## Badges
 
 [![Webasite](https://img.shields.io/website?url=http%3A%2F%2Ftheopensource.community%2F
 )](https://img.shields.io/website?url=http%3A%2F%2Ftheopensource.community%2F
@@ -29,12 +23,12 @@ Please adhere to this project's [CODE_OF_CONDUCT.nd](CODE_OF_CONDUCT.md).
 
 ## Documentation
 
-[Documentation](https://linktodocumentation)
+[Documentation](/discussions/categories/general/)
 
 
 ## Feedback
 
-If you have any feedback, please reach out to us at fake@fake.com
+If you have any feedback, please reach out to us at <a href="mailto:contact@theopensource.community">contact at theopensource.community</a>
 
 
 ## License
@@ -44,5 +38,5 @@ If you have any feedback, please reach out to us at fake@fake.com
 
 ## Support
 
-For support, email fake@fake.com or join our Slack channel.
+For support, email <a href="mailto:contact@theopensource.community">contact at theopensource.community</a> or via the [forum](/discussions/categories/general).
 
