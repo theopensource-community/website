@@ -81,7 +81,7 @@ export const footerData = {
     { ariaLabel: 'Email', icon: 'tabler:mail', href: 'mailto:contact@theopensource.community' },
     { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: '#' },
     { ariaLabel: 'Mastodon', icon: 'tabler:brand-mastodon', href: '#' },
-    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
+    /* { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') }, */
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/theopensource-community/website' },
   ],
   footNote: `
