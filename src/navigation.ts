@@ -30,52 +30,51 @@ export const headerData = {
 export const footerData = {
   links: [
     {
-      title: 'Product',
+      title: 'Learn more',
       links: [
-        { text: 'Features', href: '#' },
-        { text: 'Security', href: '#' },
-        { text: 'Team', href: '#' },
-        { text: 'Enterprise', href: '#' },
-        { text: 'Customer stories', href: '#' },
-        { text: 'Pricing', href: '#' },
-        { text: 'Resources', href: '#' },
+        {
+          text: 'About',
+          href: getPermalink('/about'),
+        },
+        {
+          text: 'Contributing',
+          href: "#",
+        },
+        {
+          text: 'Licensing',
+          href: "#",
+        },
       ],
     },
     {
-      title: 'Platform',
+      title: 'Supported projects',
       links: [
-        { text: 'Developer API', href: '#' },
-        { text: 'Partners', href: '#' },
-        { text: 'Atom', href: '#' },
-        { text: 'Electron', href: '#' },
-        { text: 'AstroWind Desktop', href: '#' },
+        {
+          text: 'PostgreSQL',
+          href: getPermalink('/projects/postgresql'),
+        },
+        {
+          text: 'Roadmap',
+          href: getPermalink('/projects/roadmap'),
+        },
       ],
     },
     {
-      title: 'Support',
+      title: 'Get in touch',
       links: [
-        { text: 'Docs', href: '#' },
-        { text: 'Community Forum', href: '#' },
-        { text: 'Professional Services', href: '#' },
-        { text: 'Skills', href: '#' },
-        { text: 'Status', href: '#' },
-      ],
-    },
-    {
-      title: 'Company',
-      links: [
-        { text: 'About', href: '#' },
-        { text: 'Blog', href: '#' },
-        { text: 'Careers', href: '#' },
-        { text: 'Press', href: '#' },
-        { text: 'Inclusion', href: '#' },
-        { text: 'Social Impact', href: '#' },
-        { text: 'Shop', href: '#' },
+        {
+          text: 'Contact',
+          href: getPermalink('/contact'),
+        },
+        {
+          text: 'GitHub Discussions',
+          href: "#",
+        },
       ],
     },
   ],
   secondaryLinks: [
-    { text: 'Terms', href: getPermalink('/terms') },
+    { text: 'Code of Conduct', href: getPermalink('/code-of-conduct') },
     { text: 'Privacy Policy', href: getPermalink('/privacy') },
   ],
   socialLinks: [

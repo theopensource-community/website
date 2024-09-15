@@ -1,5 +1,5 @@
 ---
-title: 'Terms and Conditions'
+title: 'Code of Conduct'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
