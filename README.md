@@ -26,17 +26,7 @@ Interested in contributing to this project? We need **your** help to support add
 More documentation about this community can be found in the [forum](/discussions/categories/general/)
 
 
-## Feedback
+## Feedback and Support
 
-If you have any feedback, please reach out to us at <a href="mailto:contact@theopensource.community">contact at theopensource.community</a>
-
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
-
-## Support
-
-For support, email <a href="mailto:contact@theopensource.community">contact at theopensource.community</a> or via the [forum](/discussions/categories/general).
+If you have any feedback, please reach out to us at <a href="mailto:contact@theopensource.community">contact at theopensource.community</a>. For support, email <a href="mailto:contact@theopensource.community">contact at theopensource.community</a> or via the [forum](/discussions/categories/general).
 
