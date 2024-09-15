@@ -18,12 +18,12 @@ Contributions are always welcome!
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for ways to get started.
 
-Please adhere to this project's [CODE_OF_CONDUCT.nd](CODE_OF_CONDUCT.md).
+Please adhere to this project's [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
 
 
 ## Documentation
 
-[Documentation](/discussions/categories/general/)
+More documentation about this community can be found in the [forum](/discussions/categories/general/)
 
 
 ## Feedback
