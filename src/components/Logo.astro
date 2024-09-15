@@ -1,9 +1,6 @@
 ---
-import { SITE } from 'astrowind:config';
+import logo from '~/assets/images/logo.png';
 ---
-
-<span
-  class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white"
->
-  🚀 {SITE?.name}
-</span>
+<div class="flex flex-shrink-0 items-center">
+  <img class="h-12 w-auto" src={logo.src} alt="The Open Source Community ibis logo, representative of Thoth, with Ma'at's feather">
+</div>
