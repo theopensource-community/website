@@ -28,5 +28,5 @@ More documentation about this community effort can be found in the [forum](/disc
 
 ## Feedback and Support
 
-If you have any feedback, please reach out to us at <a href="mailto:contact@theopensource.community">contact at theopensource.community</a>. For support, email <a href="mailto:contact@theopensource.community">contact at theopensource.community</a> or via the [forum](/discussions/categories/general).
+If you have any feedback, or are in need of support, please reach out to us at <a href="mailto:contact@theopensource.community">contact at theopensource.community</a>. Support may also be found via the [forum](/discussions/categories/general).
 
