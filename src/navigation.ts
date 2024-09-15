@@ -68,7 +68,7 @@ export const footerData = {
         },
         {
           text: 'GitHub Discussions',
-          href: "#",
+          href: "https://github.com/theopensource-community/website/discussions",
         },
       ],
     },
