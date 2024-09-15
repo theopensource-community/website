@@ -23,7 +23,7 @@ Interested in contributing to this project? We need **your** help to support add
 
 ## Documentation
 
-More documentation about this community can be found in the [forum](/discussions/categories/general/)
+More documentation about this community effort can be found in the [forum](/discussions/categories/general/)
 
 
 ## Feedback and Support
