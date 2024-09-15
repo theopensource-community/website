@@ -11,10 +11,10 @@ import Features3 from '~/components/widgets/Features3.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Brands from '~/components/widgets/Brands.astro';
 
-import { YouTube } from 'astro-embed';
+/* import { YouTube } from 'astro-embed'; */
 
 const metadata = {
-  title: 'Startup Landing Page',
+  title: 'The PostgreSQL Project',
 };
 ---
 
@@ -22,7 +22,7 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-    tagline="Startup Web Demo"
+    tagline="The PostgreSQL Project"
     actions={[
       {
         variant: 'primary',
@@ -45,6 +45,7 @@ const metadata = {
       startup's digital footprint, fostering credibility, and expanding your reach.
     </Fragment>
 
+    <!-- 
     <Fragment slot="image">
       <YouTube id="gxBkghlglTg" title="Astro just Launched.... Could it be the ultimate web framework?" />
       <style is:inline>
@@ -54,6 +55,7 @@ const metadata = {
         }
       </style>
     </Fragment>
+    -->
   </Hero>
 
   <!-- Features2 Widget ************** -->
