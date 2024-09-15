@@ -13,6 +13,10 @@ export const headerData = {
           text: 'PostgreSQL',
           href: getPermalink('/projects/postgresql'),
         },
+        {
+          text: 'Roadmap',
+          href: getPermalink('/projects/roadmap'),
+        },
       ],
     },
     {
