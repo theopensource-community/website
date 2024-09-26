@@ -7,17 +7,8 @@ export const headerData = {
       href: getPermalink('/about'),
     },
     {
-      text: 'Projects',
-      links: [
-        {
-          text: 'PostgreSQL',
-          href: getPermalink('/projects/postgresql'),
-        },
-        {
-          text: 'Roadmap',
-          href: getPermalink('/projects/roadmap'),
-        },
-      ],
+      text: 'Roadmap',
+      href: getPermalink('/roadmap'),
     },
     {
       text: 'Contact',
@@ -37,25 +28,16 @@ export const footerData = {
           href: getPermalink('/about'),
         },
         {
+          text: 'Roadmap',
+          href: getPermalink('/roadmap'),
+        },
+        {
           text: 'Contributing',
           href: "https://github.com/theopensource-community/website/blob/main/CONTRIBUTING.md",
         },
         {
           text: 'License',
           href: "https://github.com/theopensource-community/website/blob/main/LICENSE.md",
-        },
-      ],
-    },
-    {
-      title: 'Supported projects',
-      links: [
-        {
-          text: 'PostgreSQL',
-          href: getPermalink('/projects/postgresql'),
-        },
-        {
-          text: 'Roadmap',
-          href: getPermalink('/projects/roadmap'),
         },
       ],
     },

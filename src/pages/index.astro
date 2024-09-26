@@ -7,10 +7,12 @@ import Features from '~/components/widgets/Features.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import Content from '~/components/widgets/Content.astro';
-import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+/* import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro'; */
 import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+
+import { getPermalink } from '~/utils/permalinks';
 
 const metadata = {
   title: 'The Open Source Community',
@@ -25,28 +27,25 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Get template',
-        href: 'https://github.com/onwidget/astrowind',
+        text: 'Watch us on GitHub',
+        href: 'https://github.com/theopensource-community/website/',
         target: '_blank',
-        icon: 'tabler:download',
+        icon: 'tabler:binoculars',
       },
-      { text: 'Learn more', href: '#features' },
+      { 
+        text: 'Get in touch', 
+        href: getPermalink('/contact'),
+        icon: 'tabler:message-chatbot',
+      },
     ]}
-    image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image' }}
   >
     <Fragment slot="title">
-      Free template for <span class="hidden xl:inline">creating websites with</span>
-      <span class="text-accent dark:text-white highlight"> Astro 4.0</span> + Tailwind CSS
+      Seeking to 
+      <span class="text-primary dark:text-white highlight">support & uplift</span> open source communities
     </Fragment>
 
     <Fragment slot="subtitle">
-      <span class="hidden sm:inline">
-        <span class="font-semibold">AstroWind</span> is a free, customizable and production-ready template for Astro 4.0
-        + Tailwind CSS.</span
-      >
-      <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span>
-      Suitable for Startups, Small Business, SaaS websites, Professional Portfolios, Marketing websites, Landing Pages &
-      Blogs.
+      We're here to support <span class="font-semibold">developers, end users, and open source projects</span> through providing resources for all and helping users get started working with or contributing to projects quickly.
     </Fragment>
   </Hero>
 
@@ -57,46 +56,46 @@ const metadata = {
   <!-- Features Widget *************** -->
 
   <Features
-    id="features"
-    tagline="Features"
-    title="What you get with AstroWind"
-    subtitle="One of the most professional and comprehensive templates currently on the market. Most starred & forked Astro theme in 2022."
+    id="comingsoon"
+    tagline="Coming soon"
+    title="What we plan to do"
+    subtitle="Laying out all our plans and aspirations, to enable others who want to be involved"
     items={[
       {
-        title: 'Astro + Tailwind CSS Integration',
+        title: 'Support virtual & in-person events',
         description:
-          'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
-        icon: 'tabler:brand-tailwind',
+          'Help organizers obtain sponsors, lock in a location, find speakers, enable diversity & accessibility, connect with available volunteers, have support through advocacy, etc. no matter whether they\'re a user group, conference, or someone looking to host a one-time event.',
+        icon: 'tabler:calendar-event',
       },
       {
-        title: 'Ready-to-use Components',
+        title: 'Help speakers',
         description:
-          'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
-        icon: 'tabler:components',
+          'Compile and host resources designed to help speakers find events to speak at, be found by events looking for speakers, build their personal brand, meet with others willing to review ideas, abstracts, slides, or initial presentations, and learn how to improve their public speaking skills.',
+        icon: 'tabler:speakerphone',
       },
       {
-        title: 'Best Practices',
+        title: 'Promote educational initiatives',
         description:
-          'Creating secure, efficient, and user-friendly websites that deliver exceptional experiences and lasting value.',
-        icon: 'tabler:list-check',
+          'Provide training sessions, educational content, office hours, and mentorship programs connecting willing mentors with those who would like to learn how to contribute to or hack on different open source technologies available within our supported projects.',
+        icon: 'tabler:school',
       },
       {
-        title: 'Excellent Page Speed',
+        title: 'Provide software licenses & hardware',
         description:
-          'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
-        icon: 'tabler:rocket',
+          'Acquire and disperse software licenses & hardware to individuals in need as part of programs designed to foster diversity & inclusion. Targets include schools, career building programs, and local communities as well as a generally available scholarship program.',
+        icon: 'tabler:terminal-2',
       },
       {
-        title: 'Search Engine Optimization (SEO)',
+        title: 'Encourage participation',
         description:
-          "SEO lies in its ability to enhance a website's visibility, driving organic traffic and enabling it to reach a wider audience.",
-        icon: 'tabler:arrows-right-left',
+          'Create quickstarts and tailored community landing pages for open source projects, host programs connecting contributors and projects, run hackathons, and fund giveaways & lotteries as incentives for engagement from contributors, users, and developers.',
+        icon: 'tabler:device-desktop',
       },
       {
-        title: 'Open to new ideas and contributions',
+        title: 'Fund volunteer efforts',
         description:
-          'Embracing a culture that is open to new ideas and contributions is integral fostering innovation, collaboration, and a dynamic user experience.',
-        icon: 'tabler:bulb',
+          'Help open source projects in need of advocacy, design, marketing, development, content, or workflow contributions through bounty programs, consultations, and matching willing individuals with projects. For all programs, funding and/or incentives will be offered where possible.',
+        icon: 'tabler:mood-dollar',
       },
     ]}
   />
@@ -312,7 +311,7 @@ const metadata = {
     </Fragment>
   </Features2>
 
-  <!-- HighlightedPosts Widget ******* -->
+  <!-- HighlightedPosts Widget ******* 
 
   <BlogLatestPosts
     title="Find out more content in our Blog"
@@ -322,12 +321,28 @@ const metadata = {
                 `}
   />
 
+  -->
+
+  <!-- Stats Widget ****************** -->
+
+  <Stats
+    title="We need *your* help to grow these numbers!"
+	bg="#fff"
+    stats={[
+      /* { title: 'Supported projects', amount: '1' }, */
+      { title: 'Site maintainers', amount: '2' },
+      { title: 'GitHub watchers', amount: '2' },
+      { title: 'Sponsors', amount: '1?!' },
+      /* { title: 'Forum posts per week', amount: '12' }, */
+    ]}
+  />
+
   <!-- FAQs Widget ******************* -->
 
   <FAQs
-    title="Frequently Asked Questions"
-    subtitle="Dive into the following questions to gain insights into the powerful features that AstroWind offers and how it can elevate your web development journey."
-    tagline="FAQs"
+    title="How can I take part in this project?"
+    subtitle="No matter who you are or what you're interested in, we have a number of ways you can participate in or benefit from TheOpenSource.community."
+    tagline="Get involved"
     classes={{ container: 'max-w-6xl' }}
     items={[
       {
@@ -363,37 +378,25 @@ const metadata = {
     ]}
   />
 
-  <!-- Stats Widget ****************** -->
-
-  <Stats
-    stats={[
-      { title: 'Downloads', amount: '132K' },
-      { title: 'Stars', amount: '24.8K' },
-      { title: 'Forks', amount: '10.3K' },
-      { title: 'Users', amount: '48.4K' },
-    ]}
-  />
-
   <!-- CallToAction Widget *********** -->
 
   <CallToAction
     actions={[
       {
         variant: 'primary',
-        text: 'Get template',
-        href: 'https://github.com/onwidget/astrowind',
+        text: 'Connect with the community',
+        href: getPermalink('/contact'),
         target: '_blank',
-        icon: 'tabler:download',
+        icon: 'tabler:messages',
       },
     ]}
   >
     <Fragment slot="title">
-      Astro&nbsp;+&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Tailwind CSS</span>
+      Excited?
     </Fragment>
 
     <Fragment slot="subtitle">
-      Be very surprised by these huge fake numbers you are seeing on this page. <br class="hidden md:inline" />Don't
-      waste more time! :P
+      So are we. Let's get in touch, and stay connected.
     </Fragment>
   </CallToAction>
 </Layout>

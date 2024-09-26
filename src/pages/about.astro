@@ -2,7 +2,6 @@
 import Features2 from '~/components/widgets/Features2.astro';
 import Features3 from '~/components/widgets/Features3.astro';
 import Hero from '~/components/widgets/Hero3.astro';
-import Stats from '~/components/widgets/Stats.astro';
 import Steps2 from '~/components/widgets/Steps2.astro';
 import Layout from '~/layouts/PageLayout.astro';
 
@@ -30,29 +29,18 @@ const metadata = {
 
   </Hero>
 
-  <!-- Stats Widget ****************** -->
-
-  <Stats
-    title="We need *your* help to grow these numbers!"
-    stats={[
-      { title: 'Supported projects', amount: '1' },
-      { title: 'Site maintainers', amount: '2' },
-      /* { title: 'Forum posts per week', amount: '12' }, */
-    ]}
-  />
-
   <!-- Features3 Widget ************** -->
 
   <Features3
-    title="About the project"
-    subtitle="What are we all about, anyway?"
+    title="What are we all about, anyway?"
+    subtitle="Get the deets."
     columns={3}
     isBeforeContent={true}
     items={[
       {
         title: 'Who we are',
         description:
-          'Currently, we are simply two individuals who would like to support our favorite open source projects and enable positive changes to the developer experience both interally within each project and externally for those who wish to contribute to or use each project, regardless of starting expertise.',
+          'Currently, we are simply two individuals who would like to support our favorite open source projects and enable positive changes to the developer experience both internally within each project and externally for those who wish to contribute to or use each project, regardless of starting expertise.',
         icon: 'tabler:template',
       },
       {
@@ -98,7 +86,7 @@ const metadata = {
 
   <Features2
     title="Our dedication"
-    subtitle="In part, this effort is dedicated to Simon Riggs, a remarkable individual who made a significant impact on the PostgreSQL community during his lifetime. He passed away very unexpectedly in a manner that we feel reminded the community how fragile everything truly was; how the great leaders of the project who have been so committed to dedicating effort to the project and managing the direction and growth won't always be there to ensure the same.\<br/\>\<br/\>At the time of Simon's passing, the infrastructure and ecosystem was set up in a way that made contributing to the project nigh impossible, even for those who were very motivated to do so. This is still the case, and so, theopensource.community seeks to not only achieve what is stated in the beginning of this page, but also to contribute positively to the lasting maintenance and upkeep of these amazing open-source projects that our world's infrastructure run on. We seek to enable the longevity of these communities, help new projects launch with a solid and lasting foundation, and provide aid for the communities that need  help in reworking outdated processes and systems.\<br/\>\<br/\>\<b\>We help communities come together, with the help of the community - both from individuals, and as a whole.\</b\>"
+    subtitle="In part, this effort is dedicated to Simon Riggs, a remarkable individual who made a significant impact on the PostgreSQL community during his lifetime. He passed away very unexpectedly in a manner that we feel reminded the community how fragile everything truly was; how the great leaders of the project who have been so committed to dedicating effort to the project and managing the direction and growth won't always be there to ensure the same.\<br/\>\<br/\>At the time of Simon's passing, the infrastructure and ecosystem was set up in a way that made contributing to the project nigh impossible, even for those who were very motivated to do so. This is still the case, and so, theopensource.community seeks to not only achieve what is stated in the beginning of this page, but also to contribute positively to the lasting maintenance and upkeep of these amazing open-source projects that our world's infrastructure runs on. We seek to enable the longevity of these communities, help new projects launch with a solid and lasting foundation, and provide aid for the communities that need  help in reworking outdated processes and systems.\<br/\>\<br/\>\<b\>We help communities come together, with the help of the community - both from individuals, and as a whole.\</b\>"
   >
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
