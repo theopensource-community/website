@@ -44,6 +44,8 @@ export default defineConfig({
           'close-up-mode',
           'advertising',
           'globe',
+          'document',
+          'template',
         ],
       },
     }),
