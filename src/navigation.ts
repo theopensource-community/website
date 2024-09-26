@@ -7,10 +7,6 @@ export const headerData = {
       href: getPermalink('/about'),
     },
     {
-      text: 'Roadmap',
-      href: getPermalink('/roadmap'),
-    },
-    {
       text: 'Contact',
       href: getPermalink('/contact'),
     },
@@ -26,10 +22,6 @@ export const footerData = {
         {
           text: 'About',
           href: getPermalink('/about'),
-        },
-        {
-          text: 'Roadmap',
-          href: getPermalink('/roadmap'),
         },
         {
           text: 'Contributing',
